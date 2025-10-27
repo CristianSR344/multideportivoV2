@@ -1,4 +1,4 @@
-# Multideportido El Sarape
+# Multideportivo El Sarape
 
 ## Getting Started
 
