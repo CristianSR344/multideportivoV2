@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Menu from "@/components/Menu";
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
 
 export default function DashboardLayout({
   children,
@@ -11,7 +12,7 @@ export default function DashboardLayout({
     {/* LEFT */}
     <div className='w-[14%]  md:w-[8%] lg:w-[16%] xl:w-[14%]  p-4'>
       <Link href="/" className="flex items-center justify-center lg:justify-start gap-2">
-        <img src="https://gobiernosaltillo.net/mdsarape/assets/img/logo_mdsarape.png" alt="Logo" width={45} height={45} />
+        <Image src="/logo.png" alt="Logo" width={45} height={45} />
         <span className="hidden lg:block font-bold">Multideportivo <br /> El Sarape</span>
       </Link>
       <Menu />

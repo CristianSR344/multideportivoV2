@@ -96,7 +96,7 @@ const Menu = () => {
 
         </div>
       ))}
-      <img src="https://saltillo.gob.mx/wp-content/uploads/2024/12/logo2024.png" alt="" width={200} height={200} />
+      <Image src="/logo2.png" alt="" width={200} height={200} />
     </div>
   )
 }
